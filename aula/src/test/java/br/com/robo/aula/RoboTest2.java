@@ -28,7 +28,7 @@ public class RoboTest2 {
 		robo.esquerda();
 		robo.esquerda();
 		robo.esquerda();
-    	Assert.assertEquals(0, robo.getX());
+    	Assert.assertEquals(1, robo.getX());
 	}
 
 	@Test
@@ -50,8 +50,8 @@ public class RoboTest2 {
 		robo.abaixo();
 		robo.abaixo();
 		robo.abaixo();
-		robo.abaixo();	
+		robo.abaixo();		
 			
-    	Assert.assertEquals(0, robo.getY());
+    	Assert.assertEquals(1, robo.getY());
 	}
 }
